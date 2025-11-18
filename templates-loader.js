@@ -1,3 +1,5 @@
+/*
+
 const portfolioItems = [
 'Amado',
 'Carbook',
@@ -37,7 +39,8 @@ for (let portfolioItem of portfolioItems) {
 </div>`;
 }
 
-document.addEventListener("DOMContentLoaded", (event) => {
-  const portfolioList = document.getElementById("portfolio-list");
-  portfolioList.innerHTML = html + portfolioList.innerHTML;
-});
+
+const portfolioList = document.getElementById("portfolio-list");
+portfolioList.innerHTML = html + portfolioList.innerHTML;
+  
+*/
