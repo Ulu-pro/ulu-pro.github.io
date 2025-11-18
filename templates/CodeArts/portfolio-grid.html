@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#0d1114">
+    <title>CodeArts</title>
+    <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/vendor/normalize.css">
+    <link rel="stylesheet" href="css/vendor/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/vendor/slick.css">
+    <link rel="stylesheet" href="css/vendor/slick-theme.css">
+    <link rel="stylesheet" href="css/vendor/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/style.css" id="color-change">
+
+</head>
+<div id="color-switcher" class="active">
+
+    <h5>Theme</h5>
+    <ul class="switcher-theme">
+        <li>
+            <a class="dark" href="javascript:;"></a>
+        </li>
+        <li>
+            <a class="white" href="https://codearts.theme.admarts.ru/light-theme/"></a>
+        </li>
+    </ul>
+
+    <h5>Color Schemes</h5>
+    <ul class="switcher-color">
+        <li>
+            <a class="default" href="#"></a>
+        </li>
+        <li>
+            <a class="pink" href="#"></a>
+        </li>
+        <li>
+            <a class="blue" href="#"></a>
+        </li>
+        <li>
+            <a class="orange" href="#"></a>
+        </li>
+        <li>
+            <a class="purple" href="#"></a>
+        </li>
+        <li>
+            <a class="red" href="#"></a>
+        </li>
+    </ul>
+    <div class="bottom">
+        <img src="img/cog.svg" alt="">
+    </div>
+</div>
+
+<body class="nothome">
+    <!-- Page Preloader -->
+    <div class="page-loader">
+        <div class="iconload"></div>
+    </div>
+    <!-- End Page Preloader -->
+    <!-- Header -->
+    <header class="pages">
+        <div class="container">
+            <div class="header">
+                <div class="header__top">
+                    <div class="container">
+                        <!-- Header logo -->
+                        <div class="header__logo">
+                            <a href="index.html"><img src="img/logo.svg" alt=""></a>
+                        </div>
+                        <!-- End Header logo -->
+                        <!-- Header Nav -->
+                        <div class="header__menu">
+                            <!-- Mobile Burger Button -->
+                            <div class="burger-wrapper">
+                                <svg class="burger hamRotate" viewBox="0 0 100 100">
+                                    <path class="line top" d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
+                                    <path class="line middle" d="m 30,50 h 40" />
+                                    <path class="line bottom" d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
+                                </svg>
+                            </div>
+                            <!-- End Mobile Burger Button -->
+                            <!-- Navigation -->
+                            <nav>
+                                <ul>
+                                    <li class="sub"><a href="javascript:void(0);">Home</a>
+                                        <ul class="submenu">
+                                            <li><a href="index.html">Home Particles Js</a></li>
+                                            <li><a href="index-slider.html">Home Slider</a></li>
+                                            <li><a href="index-image.html">Home Single Image</a></li>
+                                            <li><a href="index-video.html">Home Background Video</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li class="sub"><a href="javascript:void(0);">Portfolio</a>
+                                        <ul class="submenu">
+                                            <li><a href="portfolio-grid.html">Portfolio Grid</a></li>
+                                            <li><a href="portfolio-filter.html">Portfolio Filter</a></li>
+                                            <li><a href="portfolio-carousel.html">Portfolio Carousel</a></li>
+                                            <li><a href="portfolio-carousel-fullwidth.html">Portfolio Carousel FullWidth</a></li>
+                                            <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                                            <li><a href="portfolio-details-2.html">Portfolio Details 2</a></li>
+                                            <li><a href="portfolio-details-3.html">Portfolio Details 3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub"><a href="javascript:void(0);">Pages</a>
+                                        <ul class="submenu">
+                                            <li><a href="services-grid.html">Services Grid</a></li>
+                                            <li><a href="services-tab.html">Services Tabs</a></li>
+                                            <li><a href="services-details.html">Services Details</a></li>
+                                            <li><a href="blog-grid.html">Blog Grid</a></li>
+                                            <li><a href="blog-sidebar-right.html">Blog Sidebar Right</a></li>
+                                            <li><a href="blog-sidebar-left.html">Blog Sidebar Left</a></li>
+                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                            <li><a href="team.html">Team</a></li>
+                                            <li><a href="page.html">Single Page</a></li>
+                                            <li><a href="page404.html">404</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub"><a href="javascript:void(0);">Blocks</a>
+                                        <ul class="submenu">
+                                            <li><a href="login.html">Sign in</a></li>
+                                            <li><a href="registration.html">Sign Up</a></li>
+                                            <li><a href="forgotpass.html">Forgot Password</a></li>
+                                            <li><a href="progressbar.html">Progress Bar</a></li>
+                                            <li><a href="typography.html">Typography</a></li>
+                                            <li><a href="columns.html">Grid Columns</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+                            <!-- End Navigation -->
+                            <a class="btn-active btn-perspective" href="https://www.templatemonster.com/ru/website-templates-type/136121.html"><span>BUY NOW</span></a>
+                        </div>
+                        <!-- End Header Nav -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pages__head black-bg">
+            <!-- Header Title -->
+            <div class="block__title">
+                <h2><span>Portfolio Grid</span></h2>
+            </div>
+            <!-- End Header Title -->
+            <!-- Breadcrumbs -->
+            <div class="path">
+                <span><a href="#">Home</a></span>
+                <span>Portfolio Grid</span>
+            </div>
+            <!-- End Breadcrumbs -->
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Content Section -->
+    <section class="content__body portfolio">
+        <div class="container">
+            <!-- Portfolio Grid -->
+            <div class="grid-portfolio">
+                <!-- Portfolio Grid Item -->
+                <div class="portfolio-item">
+                    <a href="portfolio-details.html">
+                        <div class="portfolio-image">
+                            <img src="img/portfolio/p1.jpg" alt="">
+                        </div>
+                        <div class="portfolio-desc-block">
+                            <div class="portfolio-desc">
+                                <div class="portfolio-subtitle">
+                                    Web Design
+                                </div>
+                                <div class="portfolio-title">
+                                    Online Shoping
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Portfolio Grid Item -->
+                <div class="portfolio-item">
+                    <a href="portfolio-details.html">
+                        <div class="portfolio-image">
+                            <img src="img/portfolio/p2.jpg" alt="">
+                        </div>
+                        <div class="portfolio-desc">
+                            <div class="portfolio-subtitle">
+                                Social Media
+                            </div>
+                            <div class="portfolio-title">
+                                Seo Studio
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Portfolio Grid Item -->
+                <div class="portfolio-item">
+                    <a href="portfolio-details.html">
+                        <div class="portfolio-image">
+                            <img src="img/portfolio/p3.jpg" alt="">
+                        </div>
+                        <div class="portfolio-desc">
+                            <div class="portfolio-subtitle">
+                                Logo
+                            </div>
+                            <div class="portfolio-title">
+                                BicycleShop
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Portfolio Grid Item -->
+                <div class="portfolio-item">
+                    <a href="portfolio-details.html">
+                        <div class="portfolio-image">
+                            <img src="img/portfolio/p4.jpg" alt="">
+                        </div>
+                        <div class="portfolio-desc">
+                            <div class="portfolio-subtitle">
+                                Web Design
+                            </div>
+                            <div class="portfolio-title">
+                                Best Shop
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Portfolio Grid Item -->
+                <div class="portfolio-item">
+                    <a href="portfolio-details.html">
+                        <div class="portfolio-image">
+                            <img src="img/portfolio/p5.jpg" alt="">
+                        </div>
+                        <div class="portfolio-desc">
+                            <div class="portfolio-subtitle">
+                                Logo
+                            </div>
+                            <div class="portfolio-title">
+                                Vortech
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Portfolio Grid Item -->
+                <div class="portfolio-item">
+                    <a href="portfolio-details.html">
+                        <div class="portfolio-image">
+                            <img src="img/portfolio/p6.jpg" alt="">
+                        </div>
+                        <div class="portfolio-desc">
+                            <div class="portfolio-subtitle">
+                                Mobile App
+                            </div>
+                            <div class="portfolio-title">
+                                Agency Web Application
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Portfolio Grid Item -->
+                <div class="portfolio-item">
+                    <a href="portfolio-details.html">
+                        <div class="portfolio-image">
+                            <img src="img/portfolio/p7.jpg" alt="">
+                        </div>
+                        <div class="portfolio-desc">
+                            <div class="portfolio-subtitle">
+                                Social Media
+                            </div>
+                            <div class="portfolio-title">
+                                Kids Sport
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Portfolio Grid Item -->
+                <div class="portfolio-item">
+                    <a href="portfolio-details.html">
+                        <div class="portfolio-image">
+                            <img src="img/portfolio/p8.jpg" alt="">
+                        </div>
+                        <div class="portfolio-desc">
+                            <div class="portfolio-subtitle">
+                                Mobile App
+                            </div>
+                            <div class="portfolio-title">
+                                My Shoping
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Portfolio Grid Item -->
+                <div class="portfolio-item">
+                    <a href="portfolio-details.html">
+                        <div class="portfolio-image">
+                            <img src="img/portfolio/p9.jpg" alt="">
+                        </div>
+                        <div class="portfolio-desc">
+                            <div class="portfolio-subtitle">
+                                Web Design
+                            </div>
+                            <div class="portfolio-title">
+                                Kids Holidays
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Portfolio Grid Item -->
+                <div class="portfolio-item">
+                    <a href="portfolio-details.html">
+                        <div class="portfolio-image">
+                            <img src="img/portfolio/p10.jpg" alt="">
+                        </div>
+                        <div class="portfolio-desc">
+                            <div class="portfolio-subtitle">
+                                Logo
+                            </div>
+                            <div class="portfolio-title">
+                                Space Seo
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Portfolio Grid Item -->
+                <div class="portfolio-item">
+                    <a href="portfolio-details.html">
+                        <div class="portfolio-image">
+                            <img src="img/portfolio/p11.jpg" alt="">
+                        </div>
+                        <div class="portfolio-desc">
+                            <div class="portfolio-subtitle">
+                                Mobile App
+                            </div>
+                            <div class="portfolio-title">
+                                Messager App
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Portfolio Grid Item -->
+                <div class="portfolio-item">
+                    <a href="portfolio-details.html">
+                        <div class="portfolio-image">
+                            <img src="img/portfolio/p12.jpg" alt="">
+                        </div>
+                        <div class="portfolio-desc">
+                            <div class="portfolio-subtitle">
+                                Web Design
+                            </div>
+                            <div class="portfolio-title">
+                                Shoping Cart
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- End Portfolio Grid Item -->
+            </div>
+            <!-- End Portfolio Grid -->
+        </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact__block">
+                <!-- Contact Info -->
+                <div class="contact__info">
+                    <div class="contact__title">
+                        <h3>Contact <span>Us</span></h3>
+                    </div>
+                    <div class="contact__desc">
+                        Leave a request and our manager will contact you to clarify the details.
+                    </div>
+                    <div class="contact__phone">
+                        <a href="tel:1234567890">(212) <span>456 78 90</span></a>
+                    </div>
+                    <div class="contact__adress">
+                        2005 Stokes Isle Apt. 896, Shop Plaza 10010, USA
+                    </div>
+                    <div class="contact__email">
+                        <a href="mailto:info@domain.com">info@domain.com</a>
+                    </div>
+                    <div class="contact__social">
+                        <a href="#" class="facebook">
+                            <svg class="icon-svg icon-svg-facebook">
+                                <use xlink:href="img/symbol/sprite.svg#facebook"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="twitter">
+                            <svg class="icon-svg icon-svg-twitter">
+                                <use xlink:href="img/symbol/sprite.svg#twitter"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="instagram">
+                            <svg class="icon-svg icon-svg-instagram">
+                                <use xlink:href="img/symbol/sprite.svg#instagram"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="youtube">
+                            <svg class="icon-svg icon-svg-youtube">
+                                <use xlink:href="img/symbol/sprite.svg#youtube"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <!-- End Contact Info -->
+                <!-- Contact Form -->
+                <div class="contact__form">
+                    <div class="contact__title">
+                        <h3>Feedback <span>form</span></h3>
+                    </div>
+                    <form action="#" class="ajax-form">
+                        <div class="form-input contact__form-name">
+                            <input type="text" name="name" required="" placeholder="Your Name *">
+                        </div>
+                        <div class="form-input contact__form-phone">
+                            <input type="text" name="phone" required="" placeholder="Your Phone *">
+                        </div>
+                        <div class="form-input contact__form-email">
+                            <input type="email" name="email" required="" placeholder="Your Email *">
+                        </div>
+                        <div class="form-textarea contact__form-comment">
+                            <textarea name="message" placeholder="Your Comment "></textarea>
+                        </div>
+                        <ul class="form-errors"></ul>
+                        <div class="form-checkbox">
+                            <input type="checkbox" name="terms" class="checkbox" id="terms" checked />
+                            <label for="terms">I agree to <a href="terms-of-service.html">Terms of Service</a></label>
+                        </div>
+                        <div class="btn-active btn-perspective btn-submit"><input class="" type="submit" value="Send feedback">
+                        </div>
+                    </form>
+
+                </div>
+                <!-- End Contact Form -->
+            </div>
+
+        </div>
+    </section>
+    <!-- End Contact -->
+    <!-- Footer -->
+    <footer class="black-bg">
+        <div class="container">
+            <div class="footer">
+                <!-- Footer Logo -->
+                <div class="footer__item">
+                    <img src="img/footer-logo.png" alt="">
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
+                    <span class="copy">© 2020. All rights reserved by ComparyName</span>
+                </div>
+                <!-- End Footer Logo -->
+                <!-- Footer Menu -->
+                <div class="footer__item">
+                    <div class="footer__item-title">
+                        Services
+                    </div>
+                    <div class="footer__item-links">
+                        <ul>
+                            <li><a href="services-tab.html">Services Tabs</a></li>
+                            <li><a href="services-grid.html">Services Grid</a></li>
+                            <li><a href="services-details.html">Services Details</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Footer Menu -->
+                <div class="footer__item">
+                    <div class="footer__item-title">
+                        Blog
+                    </div>
+                    <div class="footer__item-links">
+                        <ul>
+                            <li><a href="blog-grid.html">Blog Grid</a></li>
+                            <li><a href="blog-sidebar-left.html">Blog Sidebar Left</a></li>
+                            <li><a href="blog-sidebar-right.html">Blog Sidebar Right</a></li>
+                            <li><a href="blog-details.html">Blog Details</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Footer Menu -->
+                <div class="footer__item">
+                    <div class="footer__item-title">
+                        Portfolio
+                    </div>
+                    <div class="footer__item-links">
+                        <ul>
+                            <li><a href="portfolio-grid.html">Portfolio Grid</a></li>
+                            <li><a href="portfolio-filter.html">Portfolio Filter</a></li>
+                            <li><a href="portfolio-carousel.html">Portfolio Carousel</a></li>
+                            <li><a href="portfolio-carousel-fullwidth.html">Portfolio Carousel FullWidth</a></li>
+                            <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Footer Menu -->
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body></html>

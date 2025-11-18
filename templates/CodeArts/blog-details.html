@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#0d1114">
+    <title>CodeArts</title>
+    <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/vendor/normalize.css">
+    <link rel="stylesheet" href="css/vendor/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/vendor/slick.css">
+    <link rel="stylesheet" href="css/vendor/slick-theme.css">
+    <link rel="stylesheet" href="css/vendor/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/style.css" id="color-change">
+
+</head>
+<div id="color-switcher" class="active">
+
+    <h5>Theme</h5>
+    <ul class="switcher-theme">
+        <li>
+            <a class="dark" href="javascript:;"></a>
+        </li>
+        <li>
+            <a class="white" href="https://codearts.theme.admarts.ru/light-theme/"></a>
+        </li>
+    </ul>
+
+    <h5>Color Schemes</h5>
+    <ul class="switcher-color">
+        <li>
+            <a class="default" href="#"></a>
+        </li>
+        <li>
+            <a class="pink" href="#"></a>
+        </li>
+        <li>
+            <a class="blue" href="#"></a>
+        </li>
+        <li>
+            <a class="orange" href="#"></a>
+        </li>
+        <li>
+            <a class="purple" href="#"></a>
+        </li>
+        <li>
+            <a class="red" href="#"></a>
+        </li>
+    </ul>
+    <div class="bottom">
+        <img src="img/cog.svg" alt="">
+    </div>
+</div>
+
+<body class="nothome">
+    <!-- Page Preloader -->
+    <div class="page-loader">
+        <div class="iconload"></div>
+    </div>
+    <!-- End Page Preloader -->
+    <!-- Header -->
+    <header class="pages">
+        <div class="container">
+            <div class="header">
+                <div class="header__top">
+                    <div class="container">
+                        <!-- Header logo -->
+                        <div class="header__logo">
+                            <a href="index.html"><img src="img/logo.svg" alt=""></a>
+                        </div>
+                        <!-- End Header logo -->
+                        <!-- Header Nav -->
+                        <div class="header__menu">
+                            <!-- Mobile Burger Button -->
+                            <div class="burger-wrapper">
+                                <svg class="burger hamRotate" viewBox="0 0 100 100">
+                                    <path class="line top" d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
+                                    <path class="line middle" d="m 30,50 h 40" />
+                                    <path class="line bottom" d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
+                                </svg>
+                            </div>
+                            <!-- End Mobile Burger Button -->
+                            <!-- Navigation -->
+                            <nav>
+                                <ul>
+                                    <li class="sub"><a href="javascript:void(0);">Home</a>
+                                        <ul class="submenu">
+                                            <li><a href="index.html">Home Particles Js</a></li>
+                                            <li><a href="index-slider.html">Home Slider</a></li>
+                                            <li><a href="index-image.html">Home Single Image</a></li>
+                                            <li><a href="index-video.html">Home Background Video</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li class="sub"><a href="javascript:void(0);">Portfolio</a>
+                                        <ul class="submenu">
+                                            <li><a href="portfolio-grid.html">Portfolio Grid</a></li>
+                                            <li><a href="portfolio-filter.html">Portfolio Filter</a></li>
+                                            <li><a href="portfolio-carousel.html">Portfolio Carousel</a></li>
+                                            <li><a href="portfolio-carousel-fullwidth.html">Portfolio Carousel FullWidth</a></li>
+                                            <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                                            <li><a href="portfolio-details-2.html">Portfolio Details 2</a></li>
+                                            <li><a href="portfolio-details-3.html">Portfolio Details 3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub"><a href="javascript:void(0);">Pages</a>
+                                        <ul class="submenu">
+                                            <li><a href="services-grid.html">Services Grid</a></li>
+                                            <li><a href="services-tab.html">Services Tabs</a></li>
+                                            <li><a href="services-details.html">Services Details</a></li>
+                                            <li><a href="blog-grid.html">Blog Grid</a></li>
+                                            <li><a href="blog-sidebar-right.html">Blog Sidebar Right</a></li>
+                                            <li><a href="blog-sidebar-left.html">Blog Sidebar Left</a></li>
+                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                            <li><a href="team.html">Team</a></li>
+                                            <li><a href="page.html">Single Page</a></li>
+                                            <li><a href="page404.html">404</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub"><a href="javascript:void(0);">Blocks</a>
+                                        <ul class="submenu">
+                                            <li><a href="login.html">Sign in</a></li>
+                                            <li><a href="registration.html">Sign Up</a></li>
+                                            <li><a href="forgotpass.html">Forgot Password</a></li>
+                                            <li><a href="progressbar.html">Progress Bar</a></li>
+                                            <li><a href="typography.html">Typography</a></li>
+                                            <li><a href="columns.html">Grid Columns</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+                            <!-- End Navigation -->
+                            <a class="btn-active btn-perspective" href="https://www.templatemonster.com/ru/website-templates-type/136121.html"><span>BUY NOW</span></a>
+                        </div>
+                        <!-- End Header Nav -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pages__head black-bg">
+            <!-- Header Title -->
+            <div class="block__title">
+                <h2><span>Blog Details</span></h2>
+            </div>
+            <!-- End Header Title -->
+            <!-- Breadcrumbs -->
+            <div class="path">
+                <span><a href="index.html">Home</a></span>
+                <span><a href="blog.html">Blog</a></span>
+                <span>Blog Details</span>
+            </div>
+            <!-- End Breadcrumbs -->
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Content Section -->
+    <section class="content__body blog-page">
+        <div class="container">
+            <div class="blog__body">
+                <!-- Blog Content -->
+                <div class="blog__block">
+                    <div class="blog__item">
+                        <div class="blog__image">
+                            <img src="img/blog/bb-1.jpg" alt="">
+                        </div>
+                        <div class="blog__title">
+                            <h2>Many desktop publishing packages</h2>
+                        </div>
+                        <div class="blog__stats">
+                            <span>Author: <a href="#">Trevor Virtue</a></span>
+                            <span>Date: Jun 14, 2020</span>
+                            <span>Views: 1066</span>
+                            <span>4 comments</span>
+                        </div>
+                        <div class="blog__desc">
+                            <p>
+                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+                            </p>
+
+                            <p>
+                                Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                            </p>
+
+                            <p>
+                                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                            </p>
+                            <blockquote>
+                                <p>
+                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                                </p>
+                                <div class="blockquote__footer">Trevor Virtue</div>
+                            </blockquote>
+                            <p>
+                                If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+                            </p>
+                            <p>
+                                <img style="height: 350px; height: 350px;width: 100%;object-fit: cover;" src="img/blog/bb-2.jpg" alt="">
+                            </p>
+                            <p>
+                                All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+                            </p>
+
+                            <h2>Why do we use it?</h2>
+
+                            <p>
+                                The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+                            </p>
+
+                            <p>
+                                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+                            </p>
+
+                            <p>
+                                Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                            </p>
+
+                            <h2>Where can I get some?</h2>
+
+                            <p>
+                                All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+                            </p>
+                        </div>
+
+                    </div>
+                    <!-- End Blog Content -->
+                    <!-- Blog Author Block -->
+                    <div class="author">
+                        <div class="author__avatar">
+                            <img src="img/avatar/author.jpg" alt="">
+                        </div>
+                        <div class="author__desc">
+                            <div class="author__name"><a href="#">Trevor Virtue</a></div>
+                            <p>
+                                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Blog Author Block -->
+                    <!-- Blog Comments Block -->
+                    <div class="comments">
+                        <div class="blog__title">4 Comments</div>
+                        <div class="comments__body">
+                            <div class="comments__item">
+                                <div class="comments__info">
+                                    <div class="comments__author">
+                                        <div class="comments__avatar">
+                                            <img src="img/avatar/avatar-1.jpg" alt="">
+                                        </div>
+                                        <div class="comments__name">
+                                            <div class="comments__name-title">
+                                                Andrew Kazantzis
+                                            </div>
+                                            <div class="comments__name-date">
+                                                March 7, 2020
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="comments__reply">
+                                        <a href="#" class="btn btn-perspective"><span>Reply</span></a>
+                                    </div>
+                                </div>
+                                <div class="comments__text">
+                                    But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain
+                                    was born and I will give you a complete account of the system, and expound the actual
+                                    teachings of the great explorer of the truth, the master-builder of human happiness.
+                                </div>
+
+                            </div>
+                            <div class="comments__item">
+                                <div class="comments__info">
+                                    <div class="comments__author">
+                                        <div class="comments__avatar">
+                                            <img src="img/avatar/avatar-2.jpg" alt="">
+                                        </div>
+                                        <div class="comments__name">
+                                            <div class="comments__name-title">
+                                                Daly Harry
+                                            </div>
+                                            <div class="comments__name-date">
+                                                March 12, 2020
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="comments__reply">
+                                        <a href="#" class="btn btn-perspective"><span>Reply</span></a>
+                                    </div>
+                                </div>
+                                <div class="comments__text">
+                                    Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because
+                                    it is pain, but because occasionally circumstances occur in which toil and pain can procure
+                                    him some great pleasure.
+                                </div>
+
+                            </div>
+                            <div class="comments__item reply">
+                                <div class="comments__info">
+                                    <div class="comments__author">
+                                        <div class="comments__avatar">
+                                            <img src="img/avatar/avatar-1.jpg" alt="">
+                                        </div>
+                                        <div class="comments__name">
+                                            <div class="comments__name-title">
+                                                Andrew Kazantzis
+                                            </div>
+                                            <div class="comments__name-date">
+                                                March 14, 2020
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="comments__reply">
+                                        <a href="#" class="btn btn-perspective"><span>Reply</span></a>
+                                    </div>
+                                </div>
+                                <div class="comments__text">
+                                    No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how
+                                </div>
+
+                            </div>
+                            <div class="comments__item">
+                                <div class="comments__info">
+                                    <div class="comments__author">
+                                        <div class="comments__avatar">
+                                            <img src="img/avatar/author.jpg" alt="">
+                                        </div>
+                                        <div class="comments__name">
+                                            <div class="comments__name-title">
+                                                Trevor Virtue
+                                            </div>
+                                            <div class="comments__name-date">
+                                                March 28, 2020
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="comments__reply">
+                                        <a href="#" class="btn btn-perspective"><span>Reply</span></a>
+                                    </div>
+                                </div>
+                                <div class="comments__text">
+                                    But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain
+                                    was born and I will give you a complete account of the system, and expound the actual
+                                    teachings of the great explorer of the truth, the master-builder of human happiness. No one
+                                    rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who
+                                    do not know how
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Blog Comments Block -->
+                    <!-- Blog Reply -->
+                    <div class="leave-reply">
+                        <div class="blog__title">Leave a Reply</div>
+                        <div class="leave-reply__body">
+                            <form class="my-5" action="#">
+                                <div class="row">
+                                    <div class="col-12 col-sm-6 mb-5 mb-sm-0">
+                                        <input type="text" placeholder="Name">
+                                    </div>
+                                    <div class="col-12 col-sm-6">
+                                        <input type="text" placeholder="Email">
+                                    </div>
+                                    <div class="col-12">
+                                        <textarea class="my-5" placeholder="Comment"></textarea>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn-active btn-perspective"><span>Post Comment</span></a>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- End Blog Reply -->
+                </div>
+                <!-- End Blog Content -->
+                <!-- Sidebar -->
+                <div class="sidebar">
+                    <!-- Sidebar Search -->
+                    <div class="sidebar__search">
+                        <form action="#">
+                            <input class="input-search" type="text" name="search" value="" placeholder="Search">
+                            <button class="button-search" value="" type="submit">
+                                <svg class="icon-svg icon-svg-search">
+                                    <use xlink:href="img/symbol/sprite.svg#search"></use>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                    <!-- End Sidebar Search -->
+
+                    <!-- Sidebar Title -->
+                    <div class="sidebar__info-title">Recent Posts</div>
+                    <!-- End Sidebar Title -->
+                    <!-- Sidebar Blog Posts -->
+                    <div class="sidebar__info-posts">
+                        <div class="sidebar__info-posts-item">
+                            <a href="#">
+                                <div class="sidebar__info-posts-img">
+                                    <img src="img/blog/bb-1.jpg" alt="">
+                                </div>
+                                <div class="sidebar__info-posts-desc">
+                                    <h3>Many desktop publishing packages</h3>
+                                    <p>Various versions have evolved over the years, sometimes by accident, sometimes on purpose. </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="sidebar__info-posts-item">
+                            <a href="#">
+                                <div class="sidebar__info-posts-img">
+                                    <img src="img/blog/bb-2.jpg" alt="">
+                                </div>
+                                <div class="sidebar__info-posts-desc">
+                                    <h3>There are many variations</h3>
+                                    <p>Various versions have evolved over the years, sometimes by accident, sometimes on purpose. </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="sidebar__info-posts-item">
+                            <a href="#">
+                                <div class="sidebar__info-posts-img">
+                                    <img src="img/blog/bb-3.jpg" alt="">
+                                </div>
+                                <div class="sidebar__info-posts-desc">
+                                    <h3>The standard chunk</h3>
+                                    <p>Various versions have evolved over the years, sometimes by accident, sometimes on purpose. </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="sidebar__info-posts-item">
+                            <a href="#">
+                                <div class="sidebar__info-posts-img">
+                                    <img src="img/blog/bb-4.jpg" alt="">
+                                </div>
+                                <div class="sidebar__info-posts-desc">
+                                    <h3>There are many variations</h3>
+                                    <p>Various versions have evolved over the years, sometimes by accident, sometimes on purpose. </p>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                    <!-- Sidebar Blog Posts -->
+                    <!-- Sidebar Title -->
+                    <div class="sidebar__info-title">Categories</div>
+                    <!-- End Sidebar Title -->
+                    <!-- Sidebar Category List -->
+                    <ul class="sidebar__info-categories">
+                        <li><a href="#">Apps Development</a></li>
+                        <li><a href="#">Corporate Business</a></li>
+                        <li><a href="#">Digital Marketing</a></li>
+                        <li><a href="#">Graphics Design</a></li>
+                        <li><a href="#">SEO Optimization</a></li>
+                        <li><a href="#">Web Development</a></li>
+                    </ul>
+                    <!-- End Sidebar Category List -->
+                    <!-- Sidebar Title -->
+                    <div class="sidebar__info-title">Tags</div>
+                    <!-- End Sidebar Title -->
+                    <!-- Sidebar Tags -->
+                    <div class="sidebar__info-tags">
+                        <a class="btn btn-perspective" href="#"><span>Digital</span></a>
+                        <a class="btn btn-perspective" href="#"><span>Photography</span></a>
+                        <a class="btn btn-perspective" href="#"><span>Marketing</span></a>
+                        <a class="btn btn-perspective" href="#"><span>Graphics</span></a>
+                        <a class="btn btn-perspective" href="#"><span>Branding</span></a>
+                        <a class="btn btn-perspective" href="#"><span>WebDesign</span></a>
+                        <a class="btn btn-perspective" href="#"><span>Portfolio</span></a>
+                    </div>
+                    <!-- End Sidebar Tags -->
+                </div>
+                <!-- End Sidebar -->
+            </div>
+        </div>
+    </section>
+    <!-- Newsletter -->
+    <section class="newsletter black-bg">
+        <div class="container">
+            <div class="newsletter__block">
+                <div class="newsletter__title">
+                    Sign up for our nеwsletter <span>to stay up to date with news!</span>
+                </div>
+                <div class="newsletter__form">
+                    <form action="#">
+                        <div class="dflex">
+                            <div class="form-item">
+                                <div class="input-bg"><input type="text" placeholder="Your Name"></div>
+                            </div>
+                            <div class="form-item">
+                                <div class="input-bg"><input type="text" placeholder="Your Email Address"></div>
+                            </div>
+                            <div class="form-item">
+                                <a class="btn-active btn-perspective m-10" href="#"><span>SIGN UP FOR FREE</span></a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Newsletter -->
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact__block">
+                <!-- Contact Info -->
+                <div class="contact__info">
+                    <div class="contact__title">
+                        <h3>Contact <span>Us</span></h3>
+                    </div>
+                    <div class="contact__desc">
+                        Leave a request and our manager will contact you to clarify the details.
+                    </div>
+                    <div class="contact__phone">
+                        <a href="tel:1234567890">(212) <span>456 78 90</span></a>
+                    </div>
+                    <div class="contact__adress">
+                        2005 Stokes Isle Apt. 896, Shop Plaza 10010, USA
+                    </div>
+                    <div class="contact__email">
+                        <a href="mailto:info@domain.com">info@domain.com</a>
+                    </div>
+                    <div class="contact__social">
+                        <a href="#" class="facebook">
+                            <svg class="icon-svg icon-svg-facebook">
+                                <use xlink:href="img/symbol/sprite.svg#facebook"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="twitter">
+                            <svg class="icon-svg icon-svg-twitter">
+                                <use xlink:href="img/symbol/sprite.svg#twitter"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="instagram">
+                            <svg class="icon-svg icon-svg-instagram">
+                                <use xlink:href="img/symbol/sprite.svg#instagram"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="youtube">
+                            <svg class="icon-svg icon-svg-youtube">
+                                <use xlink:href="img/symbol/sprite.svg#youtube"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <!-- End Contact Info -->
+                <!-- Contact Form -->
+                <div class="contact__form">
+                    <div class="contact__title">
+                        <h3>Feedback <span>form</span></h3>
+                    </div>
+                    <form action="#" class="ajax-form">
+                        <div class="form-input contact__form-name">
+                            <input type="text" name="name" required="" placeholder="Your Name *">
+                        </div>
+                        <div class="form-input contact__form-phone">
+                            <input type="text" name="phone" required="" placeholder="Your Phone *">
+                        </div>
+                        <div class="form-input contact__form-email">
+                            <input type="email" name="email" required="" placeholder="Your Email *">
+                        </div>
+                        <div class="form-textarea contact__form-comment">
+                            <textarea name="message" placeholder="Your Comment "></textarea>
+                        </div>
+                        <ul class="form-errors"></ul>
+                        <div class="form-checkbox">
+                            <input type="checkbox" name="terms" class="checkbox" id="terms" checked />
+                            <label for="terms">I agree to <a href="terms-of-service.html">Terms of Service</a></label>
+                        </div>
+                        <div class="btn-active btn-perspective btn-submit"><input class="" type="submit" value="Send feedback">
+                        </div>
+                    </form>
+
+                </div>
+                <!-- End Contact Form -->
+            </div>
+
+        </div>
+    </section>
+    <!-- End Contact -->
+    <!-- Footer -->
+    <footer class="black-bg">
+        <div class="container">
+            <div class="footer">
+                <!-- Footer Logo -->
+                <div class="footer__item">
+                    <img src="img/footer-logo.png" alt="">
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
+                    <span class="copy">© 2020. All rights reserved by ComparyName</span>
+                </div>
+                <!-- End Footer Logo -->
+                <!-- Footer Menu -->
+                <div class="footer__item">
+                    <div class="footer__item-title">
+                        Services
+                    </div>
+                    <div class="footer__item-links">
+                        <ul>
+                            <li><a href="services-tab.html">Services Tabs</a></li>
+                            <li><a href="services-grid.html">Services Grid</a></li>
+                            <li><a href="services-details.html">Services Details</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Footer Menu -->
+                <div class="footer__item">
+                    <div class="footer__item-title">
+                        Blog
+                    </div>
+                    <div class="footer__item-links">
+                        <ul>
+                            <li><a href="blog-grid.html">Blog Grid</a></li>
+                            <li><a href="blog-sidebar-left.html">Blog Sidebar Left</a></li>
+                            <li><a href="blog-sidebar-right.html">Blog Sidebar Right</a></li>
+                            <li><a href="blog-details.html">Blog Details</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Footer Menu -->
+                <div class="footer__item">
+                    <div class="footer__item-title">
+                        Portfolio
+                    </div>
+                    <div class="footer__item-links">
+                        <ul>
+                            <li><a href="portfolio-grid.html">Portfolio Grid</a></li>
+                            <li><a href="portfolio-filter.html">Portfolio Filter</a></li>
+                            <li><a href="portfolio-carousel.html">Portfolio Carousel</a></li>
+                            <li><a href="portfolio-carousel-fullwidth.html">Portfolio Carousel FullWidth</a></li>
+                            <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Footer Menu -->
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body></html>

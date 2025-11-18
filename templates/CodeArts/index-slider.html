@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#0d1114">
+    <title>CodeArts</title>
+    <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/vendor/normalize.css">
+    <link rel="stylesheet" href="css/vendor/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/vendor/slick.css">
+    <link rel="stylesheet" href="css/vendor/slick-theme.css">
+    <link rel="stylesheet" href="css/vendor/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/style.css" id="color-change">
+
+</head>
+<div id="color-switcher" class="active">
+
+    <h5>Theme</h5>
+    <ul class="switcher-theme">
+        <li>
+            <a class="dark" href="javascript:;"></a>
+        </li>
+        <li>
+            <a class="white" href="https://codearts.theme.admarts.ru/light-theme/"></a>
+        </li>
+    </ul>
+
+    <h5>Color Schemes</h5>
+    <ul class="switcher-color">
+        <li>
+            <a class="default" href="#"></a>
+        </li>
+        <li>
+            <a class="pink" href="#"></a>
+        </li>
+        <li>
+            <a class="blue" href="#"></a>
+        </li>
+        <li>
+            <a class="orange" href="#"></a>
+        </li>
+        <li>
+            <a class="purple" href="#"></a>
+        </li>
+        <li>
+            <a class="red" href="#"></a>
+        </li>
+    </ul>
+    <div class="bottom">
+        <img src="img/cog.svg" alt="">
+    </div>
+</div>
+
+<body>
+    <!-- Page Preloader -->
+    <div class="page-loader">
+        <div class="iconload"></div>
+    </div>
+    <!-- End Page Preloader -->
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header slider-component">
+                <div class="header__top">
+                    <div class="container">
+                        <!-- Header logo -->
+                        <div class="header__logo">
+                            <a href="index.html"><img src="img/logo.svg" alt=""></a>
+                        </div>
+                        <!-- End Header logo -->
+                        <!-- Header Nav -->
+                        <div class="header__menu">
+                            <!-- Mobile Burger Button -->
+                            <div class="burger-wrapper">
+                                <svg class="burger hamRotate" viewBox="0 0 100 100">
+                                    <path class="line top" d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
+                                    <path class="line middle" d="m 30,50 h 40" />
+                                    <path class="line bottom" d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
+                                </svg>
+                            </div>
+                            <!-- End Mobile Burger Button -->
+                            <!-- Navigation -->
+                            <nav>
+                                <ul>
+                                    <li class="sub"><a href="javascript:void(0);">Home</a>
+                                        <ul class="submenu">
+                                            <li><a href="index.html">Home Particles Js</a></li>
+                                            <li><a href="index-slider.html">Home Slider</a></li>
+                                            <li><a href="index-image.html">Home Single Image</a></li>
+                                            <li><a href="index-video.html">Home Background Video</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li class="sub"><a href="javascript:void(0);">Portfolio</a>
+                                        <ul class="submenu">
+                                            <li><a href="portfolio-grid.html">Portfolio Grid</a></li>
+                                            <li><a href="portfolio-filter.html">Portfolio Filter</a></li>
+                                            <li><a href="portfolio-carousel.html">Portfolio Carousel</a></li>
+                                            <li><a href="portfolio-carousel-fullwidth.html">Portfolio Carousel FullWidth</a></li>
+                                            <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                                            <li><a href="portfolio-details-2.html">Portfolio Details 2</a></li>
+                                            <li><a href="portfolio-details-3.html">Portfolio Details 3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub"><a href="javascript:void(0);">Pages</a>
+                                        <ul class="submenu">
+                                            <li><a href="services-grid.html">Services Grid</a></li>
+                                            <li><a href="services-tab.html">Services Tabs</a></li>
+                                            <li><a href="services-details.html">Services Details</a></li>
+                                            <li><a href="blog-grid.html">Blog Grid</a></li>
+                                            <li><a href="blog-sidebar-right.html">Blog Sidebar Right</a></li>
+                                            <li><a href="blog-sidebar-left.html">Blog Sidebar Left</a></li>
+                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                            <li><a href="team.html">Team</a></li>
+                                            <li><a href="page.html">Single Page</a></li>
+                                            <li><a href="page404.html">404</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub"><a href="javascript:void(0);">Blocks</a>
+                                        <ul class="submenu">
+                                            <li><a href="login.html">Sign in</a></li>
+                                            <li><a href="registration.html">Sign Up</a></li>
+                                            <li><a href="forgotpass.html">Forgot Password</a></li>
+                                            <li><a href="progressbar.html">Progress Bar</a></li>
+                                            <li><a href="typography.html">Typography</a></li>
+                                            <li><a href="columns.html">Grid Columns</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+                            <!-- End Navigation -->
+                            <a class="btn-active btn-perspective" href="https://www.templatemonster.com/ru/website-templates-type/136121.html"><span>BUY NOW</span></a>
+                        </div>
+                        <!-- End Header Nav -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Header Slider -->
+    <div class="slider__top">
+        <div class="slider__nav">
+            <a class="prev-button" href="javascript:void(0);">
+                <svg class="icon-svg icon-svg-prev-arrow">
+                    <use xlink:href="img/symbol/sprite.svg#prev-arrow"></use>
+                </svg>
+            </a>
+            <a class="next-button" href="javascript:void(0);">
+                <svg class="icon-svg icon-svg-next-arrow">
+                    <use xlink:href="img/symbol/sprite.svg#next-arrow"></use>
+                </svg>
+            </a>
+        </div>
+        <div class="slider__top-header">
+            <div class="slider__top-item" style="background: url('img/slider/slide-1.jpg')">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-xl-6">
+                            <div class="slider__top-content">
+                                <div class="slider__top-title">
+                                    Development
+                                </div>
+                                <div class="slider__top-text">
+                                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                </div>
+                                <a href="contact.html" class="btn-active"><span>CONTACT US</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__top-item" style="background: url('img/slider/slide-2.jpg')">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-xl-6">
+                            <div class="slider__top-content">
+                                <div class="slider__top-title">
+                                    Design
+                                </div>
+                                <div class="slider__top-text">
+                                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                </div>
+                                <a href="contact.html" class="btn-active"><span>CONTACT US</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__top-item" style="background: url('img/slider/slide-3.jpg')">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-xl-6">
+                            <div class="slider__top-content">
+                                <div class="slider__top-title">
+                                    Integration
+                                </div>
+                                <div class="slider__top-text">
+                                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                </div>
+                                <a href="contact.html" class="btn-active"><span>CONTACT US</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Slider -->
+    <!-- Services -->
+    <section class="services">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- Services Header -->
+                <div class="col-lg-6">
+                    <div class="block__title">
+                        <h3>Our <span>Services</span></h3>
+                        <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End Services Header -->
+            <div class="services__block row">
+                <!-- Services Item -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <a href="services-details.html">
+                        <div class="services__item">
+                            <div class="services__item-img">
+                                <svg class="icon-svg icon-svg-w-1">
+                                    <use xlink:href="img/symbol/sprite.svg#w-1"></use>
+                                </svg>
+                            </div>
+                            <div class="services__item-desc">
+                                <div class="services__item-desc-title">Development</div>
+                                <div class="services__item-desc-text">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Services Item -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <a href="services-details.html">
+                        <div class="services__item">
+                            <div class="services__item-img">
+                                <svg class="icon-svg icon-svg-w-2">
+                                    <use xlink:href="img/symbol/sprite.svg#w-2"></use>
+                                </svg>
+                            </div>
+                            <div class="services__item-desc">
+                                <div class="services__item-desc-title">Design</div>
+                                <div class="services__item-desc-text">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Services Item -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <a href="services-details.html">
+                        <div class="services__item">
+                            <div class="services__item-img">
+                                <svg class="icon-svg icon-svg-w-3">
+                                    <use xlink:href="img/symbol/sprite.svg#w-3"></use>
+                                </svg>
+                            </div>
+                            <div class="services__item-desc">
+                                <div class="services__item-desc-title">Integration</div>
+                                <div class="services__item-desc-text">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Services Item -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <a href="services-details.html">
+                        <div class="services__item">
+                            <div class="services__item-img">
+                                <svg class="icon-svg icon-svg-w-4">
+                                    <use xlink:href="img/symbol/sprite.svg#w-4"></use>
+                                </svg>
+                            </div>
+                            <div class="services__item-desc">
+                                <div class="services__item-desc-title">Responsive</div>
+                                <div class="services__item-desc-text">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Services Item -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <a href="services-details.html">
+                        <div class="services__item">
+                            <div class="services__item-img">
+                                <svg class="icon-svg icon-svg-w-5">
+                                    <use xlink:href="img/symbol/sprite.svg#w-5"></use>
+                                </svg>
+                            </div>
+                            <div class="services__item-desc">
+                                <div class="services__item-desc-title">Testing</div>
+                                <div class="services__item-desc-text">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Services Item -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <a href="services-details.html">
+                        <div class="services__item">
+                            <div class="services__item-img">
+                                <svg class="icon-svg icon-svg-w-6">
+                                    <use xlink:href="img/symbol/sprite.svg#w-6"></use>
+                                </svg>
+                            </div>
+                            <div class="services__item-desc">
+                                <div class="services__item-desc-title">Support</div>
+                                <div class="services__item-desc-text">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- End Services Item -->
+            </div>
+        </div>
+    </section>
+    <!-- End Services -->
+    <!-- Portfolio -->
+    <section class="portfolio">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- Works Header -->
+                <div class="col-lg-6">
+                    <div class="block__title">
+                        <h3>Our <span>Works</span></h3>
+                        <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+                    </div>
+                </div>
+                <!-- End Works Header -->
+            </div>
+        </div>
+        <div class="portfolio__block">
+            <!-- Works Nav -->
+            <div class="portfolio__nav">
+                <a class="prev-button" href="javascript:void(0);">
+                    <svg class="icon-svg icon-svg-prev-arrow">
+                        <use xlink:href="img/symbol/sprite.svg#prev-arrow"></use>
+                    </svg>
+                </a>
+                <a class="next-button" href="javascript:void(0);">
+                    <svg class="icon-svg icon-svg-next-arrow">
+                        <use xlink:href="img/symbol/sprite.svg#next-arrow"></use>
+                    </svg>
+                </a>
+            </div>
+            <!-- End Works Nav -->
+            <div class="port__slider">
+                <!-- Works Item -->
+                <div class="portfolio__item">
+                    <a href="portfolio-details.html">
+                        <div class="portfolio__image"><img src="img/portfolio/p7.jpg" alt=""></div>
+                        <div class="portfolio__desc">
+                            <div class="portfolio__text">
+                                Web Design
+                            </div>
+                            <div class="portfolio__title">Kids Sport</div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Works Item -->
+                <div class="portfolio__item">
+                    <a href="portfolio-details.html">
+                        <div class="portfolio__image"><img src="img/portfolio/p4.jpg" alt=""></div>
+                        <div class="portfolio__desc">
+                            <div class="portfolio__text">
+                                Social Media
+                            </div>
+                            <div class="portfolio__title">Best Shop</div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Works Item -->
+                <div class="portfolio__item">
+                    <a href="portfolio-details.html">
+                        <div class="portfolio__image"><img src="img/portfolio/p3.jpg" alt=""></div>
+                        <div class="portfolio__desc">
+                            <div class="portfolio__text">
+                                Mobile App
+                            </div>
+                            <div class="portfolio__title">BicycleShop</div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Works Item -->
+                <div class="portfolio__item">
+                    <a href="portfolio-details.html">
+                        <div class="portfolio__image"><img src="img/portfolio/p11.jpg" alt=""></div>
+                        <div class="portfolio__desc">
+                            <div class="portfolio__text">
+                                Logo
+                            </div>
+                            <div class="portfolio__title">Messager App</div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Works Item -->
+                <div class="portfolio__item">
+                    <a href="portfolio-details.html">
+                        <div class="portfolio__image"><img src="img/portfolio/p5.jpg" alt=""></div>
+                        <div class="portfolio__desc">
+                            <div class="portfolio__text">
+                                Mobile App
+                            </div>
+                            <div class="portfolio__title">Vortech</div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Works Item -->
+                <div class="portfolio__item">
+                    <a href="portfolio-details.html">
+                        <div class="portfolio__image"><img src="img/portfolio/p12.jpg" alt=""></div>
+                        <div class="portfolio__desc">
+                            <div class="portfolio__text">
+                                Web Design
+                            </div>
+                            <div class="portfolio__title">Shoping Cart</div>
+                        </div>
+                    </a>
+                </div>
+                <!-- End Works Item -->
+            </div>
+        </div>
+    </section>
+    <!-- End Portfolio -->
+    <!-- Counter -->
+    <section id="counter" class="why-trust">
+        <!-- Counter Header -->
+        <div class="why-trust__block title">
+            <h3>Our<span> experience</span></h3>
+        </div>
+        <!-- End Counter Header -->
+        <div class="why-trust__block">
+            <div class="counter">
+                <!-- Counter Item -->
+                <div class="counter__item">
+                    <div class="counter__number" data-count="400">0</div><span>+</span>
+                    <p>Over 400 sites created</p>
+                </div>
+                <!-- Counter Item -->
+                <div class="counter__item">
+                    <div class="counter__number" data-count="10">0</div><span>+</span>
+                    <p>Experience since 2010</p>
+                </div>
+                <!-- Counter Item -->
+                <div class="counter__item">
+                    <div class="counter__number" data-count="800">0</div><span>+</span>
+                    <p>Over 800 completed projects</p>
+                </div>
+                <!-- Counter Item -->
+                <div class="counter__item">
+                    <div class="counter__number" data-count="150">0</div><span>+</span>
+                    <p>Over 150 customers</p>
+                </div>
+                <!-- End Counter Item -->
+            </div>
+        </div>
+    </section>
+    <!-- End Counter -->
+    <!-- Our Team -->
+    <section class="our-team">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- Team Header -->
+                <div class="col-lg-6">
+                    <div class="block__title">
+                        <h3>Our <span>team</span></h3>
+                        <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+                    </div>
+                </div>
+                <!-- End Team Header -->
+            </div>
+            <div class="team">
+                <div class="team__block">
+                    <!-- Team Item -->
+                    <div class="team__item">
+                        <a class="team-c" data-fancybox data-animation-duration="300" data-src="#team-modal" data-img="img/team/t-1.jpg" data-name="John Stone" data-specialty="Chief Exicutive Officer" data-text="<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p><p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </p>" data-designing="95" data-managment="75" data-marketing="55" data-development="68" href="javascript:;">
+                            <div class="team__image">
+                                <img src="img/team/t-1.jpg" alt="">
+                                <div class="team__info">
+                                    <div class="team__name">
+                                        John Stone
+                                    </div>
+                                    <div class="team__specialty">
+                                        Chief Exicutive Officer
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Team Item -->
+                    <div class="team__item">
+                        <a class="team-c" data-fancybox data-animation-duration="300" data-src="#team-modal" data-img="img/team/t-2.jpg" data-name="Mia Wong" data-specialty="Chief Operating Officer" data-text="<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p><p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </p>" data-designing="75" data-managment="85" data-marketing="65" data-development="48" href="javascript:;">
+                            <div class="team__image">
+                                <img src="img/team/t-2.jpg" alt="">
+                                <div class="team__info">
+                                    <div class="team__name">
+                                        Mia Wong
+                                    </div>
+                                    <div class="team__specialty">
+                                        Chief Operating Officer
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Team Item -->
+                    <div class="team__item">
+                        <a class="team-c" data-fancybox data-animation-duration="300" data-src="#team-modal" data-img="img/team/t-3.jpg" data-name="Natalie Lee-Walsh" data-specialty="Project Manager" data-text="<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p><p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </p>" data-designing="100" data-managment="45" data-marketing="85" data-development="58" href="javascript:;">
+                            <div class="team__image">
+                                <img src="img/team/t-3.jpg" alt="">
+                                <div class="team__info">
+                                    <div class="team__name">
+                                        Natalie Lee-Walsh
+                                    </div>
+                                    <div class="team__specialty">
+                                        Project Manager
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Team Item -->
+                    <div class="team__item">
+                        <a class="team-c" data-fancybox data-animation-duration="300" data-src="#team-modal" data-img="img/team/t-4.jpg" data-name="Peter Stanbridge" data-specialty="Chief Technology Officer" data-text="<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p><p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </p>" data-designing="55" data-managment="38" data-marketing="85" data-development="98" href="javascript:;">
+                            <div class="team__image">
+                                <img src="img/team/t-4.jpg" alt="">
+                                <div class="team__info">
+                                    <div class="team__name">
+                                        Peter Stanbridge
+                                    </div>
+                                    <div class="team__specialty">
+                                        Chief Technology Officer
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Team Item -->
+                    <div class="team__item">
+                        <a class="team-c" data-fancybox data-animation-duration="300" data-src="#team-modal" data-img="img/team/t-5.jpg" data-name="Trevor Virtue" data-specialty="Senior Designer" data-text="<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p><p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </p>" data-designing="95" data-managment="75" data-marketing="55" data-development="68" href="javascript:;">
+                            <div class="team__image">
+                                <img src="img/team/t-5.jpg" alt="">
+                                <div class="team__info">
+                                    <div class="team__name">
+                                        Trevor Virtue
+                                    </div>
+                                    <div class="team__specialty">
+                                        Senior Designer
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Team Item -->
+                    <div class="team__item">
+                        <a class="team-c" data-fancybox data-animation-duration="300" data-src="#team-modal" data-img="img/team/t-6.jpg" data-name="Hayman Andrews" data-specialty="Content Manager" data-text="<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p><p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </p>" data-designing="95" data-managment="75" data-marketing="55" data-development="68" href="javascript:;">
+                            <div class="team__image">
+                                <img src="img/team/t-6.jpg" alt="">
+                                <div class="team__info">
+                                    <div class="team__name">
+                                        Hayman Andrews
+                                    </div>
+                                    <div class="team__specialty">
+                                        Content Manager
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Team Item -->
+                    <div class="team__item">
+                        <a class="team-c" data-fancybox data-animation-duration="300" data-src="#team-modal" data-img="img/team/t-7.jpg" data-name="Verona Blair" data-specialty="Head of Marketing" data-text="<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p><p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </p>" data-designing="95" data-managment="75" data-marketing="55" data-development="68" href="javascript:;">
+                            <div class="team__image">
+                                <img src="img/team/t-7.jpg" alt="">
+                                <div class="team__info">
+                                    <div class="team__name">
+                                        Verona Blair
+                                    </div>
+                                    <div class="team__specialty">
+                                        Head of Marketing
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- Team Item -->
+                    <div class="team__item">
+                        <a class="team-c" data-fancybox data-animation-duration="300" data-src="#team-modal" data-img="img/team/t-8.jpg" data-name="Tamzyn French" data-specialty="Web Developer" data-text="<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p><p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </p>" data-designing="95" data-managment="75" data-marketing="55" data-development="68" href="javascript:;">
+                            <div class="team__image">
+                                <img src="img/team/t-8.jpg" alt="">
+                                <div class="team__info">
+                                    <div class="team__name">
+                                        Tamzyn French
+                                    </div>
+                                    <div class="team__specialty">
+                                        Web Developer
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- End Team Item -->
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Our Team -->
+    <!-- Last From Blog -->
+    <section class="last-from-blog">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- Last From Blog Header -->
+                <div class="col-lg-6">
+                    <div class="block__title">
+                        <h3>last from <span>blog</span></h3>
+                        <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+                    </div>
+                </div>
+                <!-- End Last From Blog Header -->
+            </div>
+            <div class="bloghome">
+                <!-- Last From Blog Nav -->
+                <div class="slider__nav">
+                    <a class="btn btn-perspective prev-button" href="javascript:void(0);">
+                        <svg class="icon-svg icon-svg-prev-arrow">
+                            <use xlink:href="img/symbol/sprite.svg#prev-arrow"></use>
+                        </svg>
+                    </a>
+                    <a class="btn btn-perspective next-button" href="javascript:void(0);">
+                        <svg class="icon-svg icon-svg-next-arrow">
+                            <use xlink:href="img/symbol/sprite.svg#next-arrow"></use>
+                        </svg>
+                    </a>
+                </div>
+                <!-- End Last From Blog Nav -->
+                <div class="bloghome__slider">
+                    <!-- Last From Blog Item -->
+                    <div class="bloghome__item">
+                        <div class="bloghome__image">
+                            <a href="blog-details.html"><img src="img/blog/b-1.jpg" alt=""></a>
+                        </div>
+                        <h4>
+                            <a href="blog-details.html">Contrary to popular belief</a>
+                        </h4>
+                        <div class="bloghome__text">
+                            Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from
+                            45 BC, making it over 2000 years old
+                        </div>
+                        <div class="bloghome__btn">
+                            <a href="blog-details.html" class="btn">Read more</a>
+                        </div>
+                    </div>
+                    <!-- Last From Blog Item -->
+                    <div class="bloghome__item">
+                        <div class="bloghome__image">
+                            <a href="blog-details.html"><img src="img/blog/b-2.jpg" alt=""></a>
+                        </div>
+                        <h4>
+                            <a href="blog-details.html">There are many variations of passages</a>
+                        </h4>
+                        <div class="bloghome__text">
+                            If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                            embarrassing hidden in the middle of text.
+                        </div>
+                        <div class="bloghome__btn">
+                            <a href="blog-details.html" class="btn">Read more</a>
+                        </div>
+                    </div>
+                    <!-- Last From Blog Item -->
+                    <div class="bloghome__item">
+                        <div class="bloghome__image">
+                            <a href="blog-details.html"><img src="img/blog/b-3.jpg" alt=""></a>
+                        </div>
+                        <h4>
+                            <a href="blog-details.html">All the Lorem Ipsum generators</a>
+                        </h4>
+                        <div class="bloghome__text">
+                            Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words
+                            etc.
+                        </div>
+                        <div class="bloghome__btn">
+                            <a href="blog-details.html" class="btn">Read more</a>
+                        </div>
+                    </div>
+                    <!-- Last From Blog Item -->
+                    <div class="bloghome__item">
+                        <div class="bloghome__image">
+                            <a href="blog-details.html"><img src="img/blog/b-4.jpg" alt=""></a>
+                        </div>
+                        <h4>
+                            <a href="blog-details.html">Lorem ipsum dolor sit amet.</a>
+                        </h4>
+                        <div class="bloghome__text">
+                            Is not simply random text. It has roots in a piece of classical Latin literature from
+                            45 BC, making it over 2000 years old
+                        </div>
+                        <div class="bloghome__btn">
+                            <a href="blog-details.html" class="btn">Read more</a>
+                        </div>
+                    </div>
+                    <!-- Last From Blog Item -->
+                    <div class="bloghome__item">
+                        <div class="bloghome__image">
+                            <a href="blog-details.html"><img src="img/blog/b-1.jpg" alt=""></a>
+                        </div>
+                        <h4>
+                            <a href="blog-details.html">Contrary to popular belief</a>
+                        </h4>
+                        <div class="bloghome__text">
+                            Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from
+                            45 BC, making it over 2000 years old
+                        </div>
+                        <div class="bloghome__btn">
+                            <a href="blog-details.html" class="btn">Read more</a>
+                        </div>
+                    </div>
+                    <!-- Last From Blog Item -->
+                    <div class="bloghome__item">
+                        <div class="bloghome__image">
+                            <a href="blog-details.html"><img src="img/blog/b-2.jpg" alt=""></a>
+                        </div>
+                        <h4>
+                            <a href="blog-details.html">There are many variations of passages</a>
+                        </h4>
+                        <div class="bloghome__text">
+                            If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                            embarrassing hidden in the middle of text.
+                        </div>
+                        <div class="bloghome__btn">
+                            <a href="blog-details.html" class="btn">Read more</a>
+                        </div>
+                    </div>
+                    <!-- End Last From Blog Item -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Last From Blog -->
+    <!-- Newsletter -->
+    <section class="newsletter black-bg">
+        <div class="container">
+            <div class="newsletter__block">
+                <div class="newsletter__title">
+                    Sign up for our nеwsletter <span>to stay up to date with news!</span>
+                </div>
+                <div class="newsletter__form">
+                    <form action="#">
+                        <div class="dflex">
+                            <div class="form-item">
+                                <div class="input-bg"><input type="text" placeholder="Your Name"></div>
+                            </div>
+                            <div class="form-item">
+                                <div class="input-bg"><input type="text" placeholder="Your Email Address"></div>
+                            </div>
+                            <div class="form-item">
+                                <a class="btn-active btn-perspective m-10" href="#"><span>SIGN UP FOR FREE</span></a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Newsletter -->
+    <!-- People Reviews -->
+    <section class="reviews">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- People Reviews Header -->
+                <div class="col-lg-6">
+                    <div class="block__title">
+                        <h3>People <span>reviews</span></h3>
+                        <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+                    </div>
+                </div>
+                <!-- End People Reviews Header -->
+            </div>
+            <div class="reviewshome">
+                <!-- People Reviews Nav -->
+                <div class="slider__nav">
+                    <a class="btn btn-perspective prev-button" href="javascript:void(0);">
+                        <svg class="icon-svg icon-svg-prev-arrow">
+                            <use xlink:href="img/symbol/sprite.svg#prev-arrow"></use>
+                        </svg>
+                    </a>
+                    <a class="btn btn-perspective next-button" href="javascript:void(0);">
+                        <svg class="icon-svg icon-svg-next-arrow">
+                            <use xlink:href="img/symbol/sprite.svg#next-arrow"></use>
+                        </svg>
+                    </a>
+                </div>
+                <!-- End People Reviews Nav -->
+                <div class="reviewshome__slider">
+                    <!-- People Reviews Item -->
+                    <div class="reviewshome__item">
+                        <div class="reviewshome__user">
+                            <div class="reviewshome__avatar">
+                                <img src="img/avatar/avatar-1.jpg" alt="">
+                            </div>
+                            <div class="reviewshome__info">
+                                <div class="reviewshome__name">Andrew Kazantzis</div>
+                                <div class="reviewshome__spec">Chief Exicutive Officer</div>
+                            </div>
+                        </div>
+                        <div class="reviewshome__text">
+                            Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+                        </div>
+                    </div>
+                    <!-- People Reviews Item -->
+                    <div class="reviewshome__item">
+                        <div class="reviewshome__user">
+                            <div class="reviewshome__avatar">
+                                <img src="img/avatar/avatar-2.jpg" alt="">
+                            </div>
+                            <div class="reviewshome__info">
+                                <div class="reviewshome__name">Daly Harry</div>
+                                <div class="reviewshome__spec"> Head of Marketing</div>
+                            </div>
+                        </div>
+                        <div class="reviewshome__text">
+                            Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                        </div>
+                    </div>
+                    <!-- People Reviews Item -->
+                    <div class="reviewshome__item">
+                        <div class="reviewshome__user">
+                            <div class="reviewshome__avatar">
+                                <img src="img/avatar/avatar-3.jpg" alt="">
+                            </div>
+                            <div class="reviewshome__info">
+                                <div class="reviewshome__name">Willie Strong</div>
+                                <div class="reviewshome__spec">Chief Exicutive Officer</div>
+                            </div>
+                        </div>
+                        <div class="reviewshome__text">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                        </div>
+                    </div>
+                    <!-- End People Reviews Item -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End People Reviews -->
+    <!-- Clients -->
+    <section class="clients black-bg">
+        <div class="container">
+            <div class="clients__slider">
+                <div class="clients__image">
+                    <img src="img/clients/l-1.png" alt="">
+                </div>
+                <div class="clients__image">
+                    <img src="img/clients/l-2.png" alt="">
+                </div>
+                <div class="clients__image">
+                    <img src="img/clients/l-3.png" alt="">
+                </div>
+                <div class="clients__image">
+                    <img src="img/clients/l-4.png" alt="">
+                </div>
+                <div class="clients__image">
+                    <img src="img/clients/l-5.png" alt="">
+                </div>
+                <div class="clients__image">
+                    <img src="img/clients/l-6.png" alt="">
+                </div>
+                <div class="clients__image">
+                    <img src="img/clients/l-2.png" alt="">
+                </div>
+                <div class="clients__image">
+                    <img src="img/clients/l-3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Clients -->
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact__block">
+                <!-- Contact Info -->
+                <div class="contact__info">
+                    <div class="contact__title">
+                        <h3>Contact <span>Us</span></h3>
+                    </div>
+                    <div class="contact__desc">
+                        Leave a request and our manager will contact you to clarify the details.
+                    </div>
+                    <div class="contact__phone">
+                        <a href="tel:1234567890">(212) <span>456 78 90</span></a>
+                    </div>
+                    <div class="contact__adress">
+                        2005 Stokes Isle Apt. 896, Shop Plaza 10010, USA
+                    </div>
+                    <div class="contact__email">
+                        <a href="mailto:info@domain.com">info@domain.com</a>
+                    </div>
+                    <div class="contact__social">
+                        <a href="#" class="facebook">
+                            <svg class="icon-svg icon-svg-facebook">
+                                <use xlink:href="img/symbol/sprite.svg#facebook"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="twitter">
+                            <svg class="icon-svg icon-svg-twitter">
+                                <use xlink:href="img/symbol/sprite.svg#twitter"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="instagram">
+                            <svg class="icon-svg icon-svg-instagram">
+                                <use xlink:href="img/symbol/sprite.svg#instagram"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="youtube">
+                            <svg class="icon-svg icon-svg-youtube">
+                                <use xlink:href="img/symbol/sprite.svg#youtube"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <!-- End Contact Info -->
+                <!-- Contact Form -->
+                <div class="contact__form">
+                    <div class="contact__title">
+                        <h3>Feedback <span>form</span></h3>
+                    </div>
+                    <form action="#" class="ajax-form">
+                        <div class="form-input contact__form-name">
+                            <input type="text" name="name" required="" placeholder="Your Name *">
+                        </div>
+                        <div class="form-input contact__form-phone">
+                            <input type="text" name="phone" required="" placeholder="Your Phone *">
+                        </div>
+                        <div class="form-input contact__form-email">
+                            <input type="email" name="email" required="" placeholder="Your Email *">
+                        </div>
+                        <div class="form-textarea contact__form-comment">
+                            <textarea name="message" placeholder="Your Comment "></textarea>
+                        </div>
+                        <ul class="form-errors"></ul>
+                        <div class="form-checkbox">
+                            <input type="checkbox" name="terms" class="checkbox" id="terms" checked />
+                            <label for="terms">I agree to <a href="terms-of-service.html">Terms of Service</a></label>
+                        </div>
+                        <div class="btn-active btn-perspective btn-submit"><input class="" type="submit" value="Send feedback">
+                        </div>
+                    </form>
+
+                </div>
+                <!-- End Contact Form -->
+            </div>
+
+        </div>
+    </section>
+    <!-- End Contact -->
+    <!-- Footer -->
+    <footer class="black-bg">
+        <div class="container">
+            <div class="footer">
+                <!-- Footer Logo -->
+                <div class="footer__item">
+                    <img src="img/footer-logo.png" alt="">
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
+                    <span class="copy">© 2020. All rights reserved by ComparyName</span>
+                </div>
+                <!-- End Footer Logo -->
+                <!-- Footer Menu -->
+                <div class="footer__item">
+                    <div class="footer__item-title">
+                        Services
+                    </div>
+                    <div class="footer__item-links">
+                        <ul>
+                            <li><a href="services-tab.html">Services Tabs</a></li>
+                            <li><a href="services-grid.html">Services Grid</a></li>
+                            <li><a href="services-details.html">Services Details</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Footer Menu -->
+                <div class="footer__item">
+                    <div class="footer__item-title">
+                        Blog
+                    </div>
+                    <div class="footer__item-links">
+                        <ul>
+                            <li><a href="blog-grid.html">Blog Grid</a></li>
+                            <li><a href="blog-sidebar-left.html">Blog Sidebar Left</a></li>
+                            <li><a href="blog-sidebar-right.html">Blog Sidebar Right</a></li>
+                            <li><a href="blog-details.html">Blog Details</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Footer Menu -->
+                <div class="footer__item">
+                    <div class="footer__item-title">
+                        Portfolio
+                    </div>
+                    <div class="footer__item-links">
+                        <ul>
+                            <li><a href="portfolio-grid.html">Portfolio Grid</a></li>
+                            <li><a href="portfolio-filter.html">Portfolio Filter</a></li>
+                            <li><a href="portfolio-carousel.html">Portfolio Carousel</a></li>
+                            <li><a href="portfolio-carousel-fullwidth.html">Portfolio Carousel FullWidth</a></li>
+                            <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Footer Menu -->
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- Modal Team Item -->
+    <div style="display: none;" id="team-modal" class="modal-custom">
+        <div class="modal-team-body">
+            <div class="modal-team-left">
+                <div class="modal-team-img"></div>
+            </div>
+            <div class="modal-team-right">
+                <div class="modal-team-name"></div>
+                <div class="modal-team-specialty"></div>
+                <div class="modal-team-text"></div>
+            </div>
+            <div class="modal-team-progressbar">
+                <div class="progress-bar progress-bar--1">
+                    <div class="single-progress">
+                        <div class="title-progress-bar">Designing</div>
+                        <div class="progress">
+                            <div class="progress-bar t1" style="width: 95%;"></div>
+                        </div><span class="label t1"></span>
+                    </div>
+                </div>
+                <div class="progress-bar progress-bar--1">
+                    <div class="single-progress">
+                        <div class="title-progress-bar">Managment</div>
+                        <div class="progress">
+                            <div class="progress-bar t2" style="width: 75%;"></div>
+                        </div><span class="label t2">75%</span>
+                    </div>
+                </div>
+                <div class="progress-bar progress-bar--1">
+                    <div class="single-progress">
+                        <div class="title-progress-bar">Marketing</div>
+                        <div class="progress">
+                            <div class="progress-bar t3" style="width: 55%;"></div>
+                        </div><span class="label t3">55%</span>
+                    </div>
+                </div>
+                <div class="progress-bar progress-bar--1">
+                    <div class="single-progress">
+                        <div class="title-progress-bar">Development</div>
+                        <div class="progress">
+                            <div class="progress-bar t4" style="width: 68%;"></div>
+                        </div><span class="label t4">68%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal Team Item -->
+</body></html>

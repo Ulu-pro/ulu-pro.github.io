@@ -1,0 +1,49 @@
+<svg id="Группа_1" data-name="Группа 1" xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: none;
+        stroke-width: 3px;
+      }
+
+      .cls-1, .cls-6 {
+        stroke: #ff7200;
+      }
+
+      .cls-1 {
+        opacity: 0.1;
+      }
+
+      .cls-2 {
+        stroke: #ff0023;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        opacity: 0.07;
+      }
+
+      .cls-3 {
+        stroke: #009fff;
+      }
+
+      .cls-4 {
+        stroke: #ff0042;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        fill-rule: evenodd;
+      }
+
+      .cls-5 {
+        stroke: #009eff;
+      }
+    </style>
+  </defs>
+  <circle id="Эллипс_1" data-name="Эллипс 1" class="cls-1" cx="771.157" cy="162.156" r="11.156"/>
+  <circle id="Эллипс_1_копия" data-name="Эллипс 1 копия" class="cls-2" cx="939.157" cy="657.157" r="11.156"/>
+  <circle id="Эллипс_1_копия_2" data-name="Эллипс 1 копия 2" class="cls-3" cx="1332.155" cy="423.156" r="11.155"/>
+  <circle id="Эллипс_1_копия_3" data-name="Эллипс 1 копия 3" class="cls-2" cx="175.156" cy="763.157" r="11.156"/>
+  <path id="Прямоугольник_1" data-name="Прямоугольник 1" class="cls-4" d="M243.062,191.2l16.95,9.811-9.811,16.95-16.95-9.81Z"/>
+  <path id="Прямоугольник_1_копия" data-name="Прямоугольник 1 копия" class="cls-5" d="M597.062,753.2l16.95,9.811-9.811,16.95-16.95-9.81Z"/>
+  <path id="Прямоугольник_1_копия_2" data-name="Прямоугольник 1 копия 2" class="cls-6" d="M1392.06,767.2l16.95,9.811-9.81,16.95-16.95-9.81Z"/>
+</svg>

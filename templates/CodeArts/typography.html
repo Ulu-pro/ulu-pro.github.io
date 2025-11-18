@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#0d1114">
+    <title>CodeArts</title>
+    <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/vendor/normalize.css">
+    <link rel="stylesheet" href="css/vendor/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/vendor/slick.css">
+    <link rel="stylesheet" href="css/vendor/slick-theme.css">
+    <link rel="stylesheet" href="css/vendor/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/style.css" id="color-change">
+
+</head>
+<div id="color-switcher" class="active">
+
+    <h5>Theme</h5>
+    <ul class="switcher-theme">
+        <li>
+            <a class="dark" href="javascript:;"></a>
+        </li>
+        <li>
+            <a class="white" href="https://codearts.theme.admarts.ru/light-theme/"></a>
+        </li>
+    </ul>
+
+    <h5>Color Schemes</h5>
+    <ul class="switcher-color">
+        <li>
+            <a class="default" href="#"></a>
+        </li>
+        <li>
+            <a class="pink" href="#"></a>
+        </li>
+        <li>
+            <a class="blue" href="#"></a>
+        </li>
+        <li>
+            <a class="orange" href="#"></a>
+        </li>
+        <li>
+            <a class="purple" href="#"></a>
+        </li>
+        <li>
+            <a class="red" href="#"></a>
+        </li>
+    </ul>
+    <div class="bottom">
+        <img src="img/cog.svg" alt="">
+    </div>
+</div>
+
+<body class="nothome">
+    <!-- Page Preloader -->
+    <div class="page-loader">
+        <div class="iconload"></div>
+    </div>
+    <!-- End Page Preloader -->
+    <!-- Header -->
+    <header class="pages">
+        <div class="container">
+            <div class="header">
+                <div class="header__top">
+                    <div class="container">
+                        <!-- Header logo -->
+                        <div class="header__logo">
+                            <a href="index.html"><img src="img/logo.svg" alt=""></a>
+                        </div>
+                        <!-- End Header logo -->
+                        <!-- Header Nav -->
+                        <div class="header__menu">
+                            <!-- Mobile Burger Button -->
+                            <div class="burger-wrapper">
+                                <svg class="burger hamRotate" viewBox="0 0 100 100">
+                                    <path class="line top" d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
+                                    <path class="line middle" d="m 30,50 h 40" />
+                                    <path class="line bottom" d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
+                                </svg>
+                            </div>
+                            <!-- End Mobile Burger Button -->
+                            <!-- Navigation -->
+                            <nav>
+                                <ul>
+                                    <li class="sub"><a href="javascript:void(0);">Home</a>
+                                        <ul class="submenu">
+                                            <li><a href="index.html">Home Particles Js</a></li>
+                                            <li><a href="index-slider.html">Home Slider</a></li>
+                                            <li><a href="index-image.html">Home Single Image</a></li>
+                                            <li><a href="index-video.html">Home Background Video</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li class="sub"><a href="javascript:void(0);">Portfolio</a>
+                                        <ul class="submenu">
+                                            <li><a href="portfolio-grid.html">Portfolio Grid</a></li>
+                                            <li><a href="portfolio-filter.html">Portfolio Filter</a></li>
+                                            <li><a href="portfolio-carousel.html">Portfolio Carousel</a></li>
+                                            <li><a href="portfolio-carousel-fullwidth.html">Portfolio Carousel FullWidth</a></li>
+                                            <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                                            <li><a href="portfolio-details-2.html">Portfolio Details 2</a></li>
+                                            <li><a href="portfolio-details-3.html">Portfolio Details 3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub"><a href="javascript:void(0);">Pages</a>
+                                        <ul class="submenu">
+                                            <li><a href="services-grid.html">Services Grid</a></li>
+                                            <li><a href="services-tab.html">Services Tabs</a></li>
+                                            <li><a href="services-details.html">Services Details</a></li>
+                                            <li><a href="blog-grid.html">Blog Grid</a></li>
+                                            <li><a href="blog-sidebar-right.html">Blog Sidebar Right</a></li>
+                                            <li><a href="blog-sidebar-left.html">Blog Sidebar Left</a></li>
+                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                            <li><a href="team.html">Team</a></li>
+                                            <li><a href="page.html">Single Page</a></li>
+                                            <li><a href="page404.html">404</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub"><a href="javascript:void(0);">Blocks</a>
+                                        <ul class="submenu">
+                                            <li><a href="login.html">Sign in</a></li>
+                                            <li><a href="registration.html">Sign Up</a></li>
+                                            <li><a href="forgotpass.html">Forgot Password</a></li>
+                                            <li><a href="progressbar.html">Progress Bar</a></li>
+                                            <li><a href="typography.html">Typography</a></li>
+                                            <li><a href="columns.html">Grid Columns</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+                            <!-- End Navigation -->
+                            <a class="btn-active btn-perspective" href="https://www.templatemonster.com/ru/website-templates-type/136121.html"><span>BUY NOW</span></a>
+                        </div>
+                        <!-- End Header Nav -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pages__head black-bg">
+            <!-- Header Title -->
+            <div class="block__title">
+                <h2><span>Typography</span></h2>
+            </div>
+            <!-- End Header Title -->
+            <!-- Breadcrumbs -->
+            <div class="path">
+                <span><a href="#">Home</a></span>
+                <span>Typography</span>
+            </div>
+            <!-- End Breadcrumbs -->
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Content Section -->
+    <section class="content__body page typography">
+        <div class="container">
+            <div class="row">
+                <!-- Heading h1, h2, h3, h4, h5 ,h6 -->
+                <div class="col-xs-12 col-md-6">
+                    <div class="title">Heading</div>
+                    <div class="block">
+                        <h1>H1. heading</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="block">
+                        <h2>H2. heading</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="block">
+                        <h3>H3. heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="block">
+                        <h4>H4. heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="block">
+                        <h5>H5. heading</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="block">
+                        <h6>H6. heading</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <!-- End Heading h1, h2, h3, h4, h5 ,h6 -->
+                    <!-- Text Style -->
+                    <div class="title">Text</div>
+                    <div class="block">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ducimus nostrum
+                            itaque omnis voluptatibus ipsum. Praesentium tempora exercitationem necessitatibus fugit?</p>
+                    </div>
+                    <div class="title">Marked Text</div>
+                    <div class="block">
+                        <p>Lorem ipsum dolor sit amet <mark>consectetur adipisicing</mark> elit. Quasi ducimus nostrum
+                            itaque omnis voluptatibus ipsum. Praesentium tempora exercitationem necessitatibus fugit?</p>
+                    </div>
+                    <div class="title">Strikethrough Text</div>
+                    <div class="block">
+                        <p class="t-line">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ducimus nostrum
+                            itaque omnis voluptatibus ipsum. Praesentium tempora exercitationem necessitatibus fugit?</p>
+                    </div>
+                    <div class="title">Underlined Text</div>
+                    <div class="block">
+                        <p class="t-under">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ducimus nostrum
+                            itaque omnis voluptatibus ipsum. Praesentium tempora exercitationem necessitatibus fugit?</p>
+                    </div>
+                    <div class="title">Link in Text</div>
+                    <div class="block">
+                        <p>Lorem ipsum dolor sit amet <a href="#">consectetur adipisicing</a> elit. Quasi ducimus nostrum
+                            itaque omnis voluptatibus ipsum. Praesentium tempora exercitationem necessitatibus fugit? Lorem
+                            ipsum dolor sit</p>
+                    </div>
+                    <!-- End Text Style -->
+                    <!-- Table Style -->
+                    <div class="title">Table</div>
+                    <div class="block">
+                        <table>
+                            <tr>
+                                <th>Company</th>
+                                <th>Contact</th>
+                                <th>Country</th>
+                            </tr>
+                            <tr>
+                                <td>Alfreds Futterkiste</td>
+                                <td>Maria Anders</td>
+                                <td>Germany</td>
+                            </tr>
+                            <tr>
+                                <td>Centro comercial Moctezuma</td>
+                                <td>Francisco Chang</td>
+                                <td>Mexico</td>
+                            </tr>
+                            <tr>
+                                <td>Ernst Handel</td>
+                                <td>Roland Mendel</td>
+                                <td>Austria</td>
+                            </tr>
+                            <tr>
+                                <td>Island Trading</td>
+                                <td>Helen Bennett</td>
+                                <td>UK</td>
+                            </tr>
+                            <tr>
+                                <td>Laughing Bacchus Winecellars</td>
+                                <td>Yoshi Tannamuri</td>
+                                <td>Canada</td>
+                            </tr>
+                            <tr>
+                                <td>Magazzini Alimentari Riuniti</td>
+                                <td>Giovanni Rovelli</td>
+                                <td>Italy</td>
+                            </tr>
+                        </table>
+                        <!-- End Table Style -->
+                        <!-- Modal Style -->
+                        <div class="title">Modal Default</div>
+                        <a class="btn" href="javascript:;" data-fancybox data-animation-duration="300" data-src="#modal_d">Click Me</a>
+                        <div class="title">Modal Custom</div>
+                        <a class="btn mr-4" href="javascript:;" data-fancybox data-animation-duration="300" data-src="#modal_c">Theme 1</a>
+                        <a class="btn mr-4" href="javascript:;" data-fancybox data-animation-duration="300" data-src="#modal_c2">Theme 2</a>
+                        <a class="btn mr-4" href="javascript:;" data-fancybox data-animation-duration="300" data-src="#modal_c3">Theme 3</a>
+                        <a class="btn mr-4" href="javascript:;" data-fancybox data-animation-duration="300" data-src="#modal_c4">Theme 4</a>
+                        <a class="btn mr-4" href="javascript:;" data-fancybox data-animation-duration="300" data-src="#modal_c5">Theme 5</a>
+                        <a class="btn mr-4" href="javascript:;" data-fancybox data-animation-duration="300" data-src="#modal_c6">Theme 6</a>
+                        <!-- End Modal Style -->
+                    </div>
+                </div>
+                <!-- Buttons Links Style -->
+                <div class="col-xs-12 col-md-6">
+                    <div class="title">Buttons link</div>
+                    <div class="block">
+                        <a class="btn-active mr-3" href="#">Default</a>
+                        <a class="btn mr-3" href="#">Default</a>
+                        <a class="btn disable" href="#">Disable</a>
+                    </div>
+                    <!-- End Buttons Links Style -->
+                    <!-- Buttons Perspective Links Style -->
+                    <div class="title">Buttons Perspective Link</div>
+                    <div class="block">
+                        <a class="btn-active btn-perspective" href="#"><span>Default</span></a>
+                        <a class="btn btn-perspective" href="#"><span>Default</span></a>
+                        <a class="btn btn-perspective disable" href="#"><span>Disable</span></a>
+                    </div>
+                    <!-- End Buttons Perspective Links Style -->
+                    <!-- Buttons Submit Style -->
+                    <div class="title">Buttons Submit</div>
+                    <div class="block">
+                        <div class="btn-active btn-submit mr-3">
+                            <input class="" type="submit" value="Send form">
+                        </div>
+                        <div class="btn btn-submit mr-3">
+                            <input class="" type="submit" value="Send form">
+                        </div>
+                        <div class="btn disable btn-submit">
+                            <input class="" type="submit" value="Disabled" disabled>
+                        </div>
+                    </div>
+                    <!-- End Buttons Submit Style -->
+                    <!-- Buttons Perspective Submit Style -->
+                    <div class="title">Buttons Perspective Submit</div>
+                    <div class="block">
+                        <div class="btn-active btn-perspective btn-submit">
+                            <input class="" type="submit" value="Send form">
+                        </div>
+                        <div class="btn btn-perspective btn-submit">
+                            <input class="" type="submit" value="Send form">
+                        </div>
+                        <div class="btn disable btn-perspective btn-submit">
+                            <input class="" type="submit" value="Disabled" disabled>
+                        </div>
+                    </div>
+                    <!-- End Buttons Perspective Submit Style -->
+                    <!-- Form Perspective Style -->
+                    <div class="title">Perspective form</div>
+                    <div class="block">
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="input-bg"><input type="text" placeholder="Default"></div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="input-bg"><input type="text" placeholder="Default"></div>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="mb-3 mt-3" placeholder="Default"></textarea>
+                                </div>
+                            </div>
+                            <div class="btn btn-perspective btn-submit">
+                                <input class="" type="submit" value="Send form">
+                            </div>
+                        </form>
+                    </div>
+                    <!-- End Form Perspective Style -->
+                    <!-- Form Style -->
+                    <div class="title">Classic form</div>
+                    <div class="block">
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-12 col-md-6 mb-3">
+                                    <input type="text" placeholder="Default">
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <input type="text" placeholder="Default">
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="mb-3 mt-3" placeholder="Default"></textarea>
+                                </div>
+                            </div>
+                            <div class="btn btn-submit">
+                                <input class="" type="submit" value="Send form">
+                            </div>
+                        </form>
+                    </div>
+                    <!-- End Form Style -->
+                    <!-- Checkbox/Radio Style -->
+                    <div class="title">Checkbox/Radio</div>
+                    <div class="block">
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-6">
+                                    <input type="checkbox" class="checkbox" id="checkbox-1" checked />
+                                    <label for="checkbox-1">Default checkbox</label>
+                                    <input type="checkbox" class="checkbox" id="checkbox-2" />
+                                    <label for="checkbox-2">Checked checkbox</label>
+                                    <input type="checkbox" class="checkbox" id="checkbox-3" disabled />
+                                    <label for="checkbox-3">Disabled checkbox</label>
+                                </div>
+                                <div class="col-xs-12 col-md-6">
+                                    <input type="radio" name="radio" class="radio" id="radio-1" checked />
+                                    <label for="radio-1">Default radio</label>
+                                    <input type="radio" name="radio" class="radio" id="radio-2" />
+                                    <label for="radio-2">Checked radio</label>
+                                    <input type="radio" name="radio" class="radio" id="radio-3" disabled />
+                                    <label for="radio-3">Disabled radio</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- End Checkbox/Radio Style -->
+                    <!-- List ul li Style -->
+                    <div class="title">Lists ul</div>
+                    <div class="block">
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                            <li>Aliquam tincidunt mauris eu risus.</li>
+                            <li>Vestibulum auctor dapibus neque.</li>
+                            <li>Nunc dignissim risus id metus.</li>
+                            <li>Cras ornare tristique elit.</li>
+                            <li>Vivamus vestibulum ntulla nec ante.</li>
+                        </ul>
+                        <!-- End List ul li Style -->
+                        <!-- List ol li Style -->
+                        <div class="title">Lists ol</div>
+                        <ol>
+                            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                            <li>Aliquam tincidunt mauris eu risus.</li>
+                            <li>Vestibulum auctor dapibus neque.</li>
+                            <li>Nunc dignissim risus id metus.</li>
+                            <li>Cras ornare tristique elit.</li>
+                            <li>Vivamus vestibulum ntulla nec ante.</li>
+                        </ol>
+                        <!-- End List ol li Style -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Modal Style -->
+    <div style="display: none;" id="modal_c" class="modal-custom theme1">
+        <div class="modal-custom-body">
+            <div class="modal-custom-title">Best Title Modal</div>
+            <div class="modal-custom-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eaque in
+                deleniti ea ipsum optio aliquid rem minima, facilis et. A quibusdam velit illum totam rerum debitis eveniet
+                eos, animi culpa corporis quis perferendis nesciunt ducimus vel, atque impedit libero quisquam ipsa! Quas,
+                recusandae aliquid. Necessitatibus molestias beatae suscipit ea.</div>
+            <div class="modal-custom-bottom">
+                <a class="btn-active" data-fancybox-close href="javascript:;">Сonfirm</a>
+                <a class="btn" data-fancybox-close href="javascript:;">Cancel</a>
+            </div>
+        </div>
+    </div>
+    <div style="display: none;" id="modal_c2" class="modal-custom theme2">
+        <div class="modal-custom-body">
+            <div class="modal-custom-title">Best Title Modal</div>
+            <div class="modal-custom-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eaque in
+                deleniti ea ipsum optio aliquid rem minima, facilis et. A quibusdam velit illum totam rerum debitis eveniet
+                eos, animi culpa corporis quis perferendis nesciunt ducimus vel, atque impedit libero quisquam ipsa! Quas,
+                recusandae aliquid. Necessitatibus molestias beatae suscipit ea.</div>
+            <div class="modal-custom-bottom">
+                <a class="btn-active" data-fancybox-close href="javascript:;">Сonfirm</a>
+                <a class="btn" data-fancybox-close href="javascript:;">Cancel</a>
+            </div>
+        </div>
+    </div>
+    <div style="display: none;" id="modal_c3" class="modal-custom theme3">
+        <div class="modal-custom-body">
+            <div class="modal-custom-title">Best Title Modal</div>
+            <div class="modal-custom-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eaque in
+                deleniti ea ipsum optio aliquid rem minima, facilis et. A quibusdam velit illum totam rerum debitis eveniet
+                eos, animi culpa corporis quis perferendis nesciunt ducimus vel, atque impedit libero quisquam ipsa! Quas,
+                recusandae aliquid. Necessitatibus molestias beatae suscipit ea.</div>
+            <div class="modal-custom-bottom">
+                <a class="btn-active" data-fancybox-close href="javascript:;">Сonfirm</a>
+                <a class="btn" data-fancybox-close href="javascript:;">Cancel</a>
+            </div>
+        </div>
+    </div>
+    <div style="display: none;" id="modal_c4" class="modal-custom theme4">
+        <div class="modal-custom-body">
+            <div class="modal-custom-title">Best Title Modal</div>
+            <div class="modal-custom-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eaque in
+                deleniti ea ipsum optio aliquid rem minima, facilis et. A quibusdam velit illum totam rerum debitis eveniet
+                eos, animi culpa corporis quis perferendis nesciunt ducimus vel, atque impedit libero quisquam ipsa! Quas,
+                recusandae aliquid. Necessitatibus molestias beatae suscipit ea.</div>
+            <div class="modal-custom-bottom">
+                <a class="btn-active" data-fancybox-close href="javascript:;">Сonfirm</a>
+                <a class="btn" data-fancybox-close href="javascript:;">Cancel</a>
+            </div>
+        </div>
+    </div>
+    <div style="display: none;" id="modal_c5" class="modal-custom theme5">
+        <div class="modal-custom-body">
+            <div class="modal-custom-title">Best Title Modal</div>
+            <div class="modal-custom-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eaque in
+                deleniti ea ipsum optio aliquid rem minima, facilis et. A quibusdam velit illum totam rerum debitis eveniet
+                eos, animi culpa corporis quis perferendis nesciunt ducimus vel, atque impedit libero quisquam ipsa! Quas,
+                recusandae aliquid. Necessitatibus molestias beatae suscipit ea.</div>
+            <div class="modal-custom-bottom">
+                <a class="btn-active" data-fancybox-close href="javascript:;">Сonfirm</a>
+                <a class="btn" data-fancybox-close href="javascript:;">Cancel</a>
+            </div>
+        </div>
+    </div>
+    <div style="display: none;" id="modal_c6" class="modal-custom theme6">
+        <div class="modal-custom-body">
+            <div class="modal-custom-title">Best Title Modal</div>
+            <div class="modal-custom-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eaque in
+                deleniti ea ipsum optio aliquid rem minima, facilis et. A quibusdam velit illum totam rerum debitis eveniet
+                eos, animi culpa corporis quis perferendis nesciunt ducimus vel, atque impedit libero quisquam ipsa! Quas,
+                recusandae aliquid. Necessitatibus molestias beatae suscipit ea.</div>
+            <div class="modal-custom-bottom">
+                <a class="btn-active" data-fancybox-close href="javascript:;">Сonfirm</a>
+                <a class="btn" data-fancybox-close href="javascript:;">Cancel</a>
+            </div>
+        </div>
+    </div>
+    <div style="display: none;" id="modal_d" class="modal-default">
+        <div class="modal-defautl-body">
+            <div class="modal-defautl-title">Best Title Modal</div>
+            <div class="modal-defautl-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eaque in
+                deleniti ea ipsum optio aliquid rem minima, facilis et. A quibusdam velit illum totam rerum debitis eveniet
+                eos, animi culpa corporis quis perferendis nesciunt ducimus vel, atque impedit libero quisquam ipsa! Quas,
+                recusandae aliquid. Necessitatibus molestias beatae suscipit ea.</div>
+            <div class="modal-defautl-bottom">
+                <a class="btn-active" data-fancybox-close href="javascript:;">Сonfirm</a>
+                <a class="btn" data-fancybox-close href="javascript:;">Cancel</a>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal Style -->
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact__block">
+                <!-- Contact Info -->
+                <div class="contact__info">
+                    <div class="contact__title">
+                        <h3>Contact <span>Us</span></h3>
+                    </div>
+                    <div class="contact__desc">
+                        Leave a request and our manager will contact you to clarify the details.
+                    </div>
+                    <div class="contact__phone">
+                        <a href="tel:1234567890">(212) <span>456 78 90</span></a>
+                    </div>
+                    <div class="contact__adress">
+                        2005 Stokes Isle Apt. 896, Shop Plaza 10010, USA
+                    </div>
+                    <div class="contact__email">
+                        <a href="mailto:info@domain.com">info@domain.com</a>
+                    </div>
+                    <div class="contact__social">
+                        <a href="#" class="facebook">
+                            <svg class="icon-svg icon-svg-facebook">
+                                <use xlink:href="img/symbol/sprite.svg#facebook"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="twitter">
+                            <svg class="icon-svg icon-svg-twitter">
+                                <use xlink:href="img/symbol/sprite.svg#twitter"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="instagram">
+                            <svg class="icon-svg icon-svg-instagram">
+                                <use xlink:href="img/symbol/sprite.svg#instagram"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="youtube">
+                            <svg class="icon-svg icon-svg-youtube">
+                                <use xlink:href="img/symbol/sprite.svg#youtube"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <!-- End Contact Info -->
+                <!-- Contact Form -->
+                <div class="contact__form">
+                    <div class="contact__title">
+                        <h3>Feedback <span>form</span></h3>
+                    </div>
+                    <form action="#" class="ajax-form">
+                        <div class="form-input contact__form-name">
+                            <input type="text" name="name" required="" placeholder="Your Name *">
+                        </div>
+                        <div class="form-input contact__form-phone">
+                            <input type="text" name="phone" required="" placeholder="Your Phone *">
+                        </div>
+                        <div class="form-input contact__form-email">
+                            <input type="email" name="email" required="" placeholder="Your Email *">
+                        </div>
+                        <div class="form-textarea contact__form-comment">
+                            <textarea name="message" placeholder="Your Comment "></textarea>
+                        </div>
+                        <ul class="form-errors"></ul>
+                        <div class="form-checkbox">
+                            <input type="checkbox" name="terms" class="checkbox" id="terms" checked />
+                            <label for="terms">I agree to <a href="terms-of-service.html">Terms of Service</a></label>
+                        </div>
+                        <div class="btn-active btn-perspective btn-submit"><input class="" type="submit" value="Send feedback">
+                        </div>
+                    </form>
+
+                </div>
+                <!-- End Contact Form -->
+            </div>
+
+        </div>
+    </section>
+    <!-- End Contact -->
+    <!-- Footer -->
+    <footer class="black-bg">
+        <div class="container">
+            <div class="footer">
+                <!-- Footer Logo -->
+                <div class="footer__item">
+                    <img src="img/footer-logo.png" alt="">
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
+                    <span class="copy">© 2020. All rights reserved by ComparyName</span>
+                </div>
+                <!-- End Footer Logo -->
+                <!-- Footer Menu -->
+                <div class="footer__item">
+                    <div class="footer__item-title">
+                        Services
+                    </div>
+                    <div class="footer__item-links">
+                        <ul>
+                            <li><a href="services-tab.html">Services Tabs</a></li>
+                            <li><a href="services-grid.html">Services Grid</a></li>
+                            <li><a href="services-details.html">Services Details</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Footer Menu -->
+                <div class="footer__item">
+                    <div class="footer__item-title">
+                        Blog
+                    </div>
+                    <div class="footer__item-links">
+                        <ul>
+                            <li><a href="blog-grid.html">Blog Grid</a></li>
+                            <li><a href="blog-sidebar-left.html">Blog Sidebar Left</a></li>
+                            <li><a href="blog-sidebar-right.html">Blog Sidebar Right</a></li>
+                            <li><a href="blog-details.html">Blog Details</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Footer Menu -->
+                <div class="footer__item">
+                    <div class="footer__item-title">
+                        Portfolio
+                    </div>
+                    <div class="footer__item-links">
+                        <ul>
+                            <li><a href="portfolio-grid.html">Portfolio Grid</a></li>
+                            <li><a href="portfolio-filter.html">Portfolio Filter</a></li>
+                            <li><a href="portfolio-carousel.html">Portfolio Carousel</a></li>
+                            <li><a href="portfolio-carousel-fullwidth.html">Portfolio Carousel FullWidth</a></li>
+                            <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Footer Menu -->
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body></html>
